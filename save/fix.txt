@@ -1,0 +1,2 @@
+month:교통:60000:expend:기타
+year:연회비:20000:expend:기타
