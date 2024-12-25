@@ -7,7 +7,7 @@
 
 ## BERT 언어 모델을 통한 문자 분류
 ![image](https://github.com/user-attachments/assets/0b50ab58-a3be-475c-a05e-7ce9f9fe745a)
-pre train 모델을 이용하여 문자 내용에 따라 카테고리 분류하도로 튜닝
+>pre train 모델을 이용하여 문자 내용에 따라 카테고리 분류하도로 튜닝
 
 `from transformers import BertTokenizer`
 
