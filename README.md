@@ -10,16 +10,15 @@
 pre train 모델을 이용하여 문자 내용에 따라 카테고리 분류하도로 튜닝
 
 'from transformers import BertTokenizer'
-'from transformers import BertForSequenceClassification, AdamW, BertConfig'
+from transformers import BertForSequenceClassification, AdamW, BertConfig
 
 >하이퍼 파라미터 튜닝:
-optimizer = AdamW(model.parameters(),
+`optimizer = AdamW(model.parameters(),
                   lr = 2e-5, # 학습률
                   eps = 1e-8 # 0으로 나누는 것을 방지하기 위한 epsilon 값
                 )
 
-# 에폭수
-epochs = 8
+epochs = 8`
 
 ### 데이터 증강 기술
 -데이터 불균형 발생
