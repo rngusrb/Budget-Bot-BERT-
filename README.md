@@ -10,6 +10,7 @@
 pre train 모델을 이용하여 문자 내용에 따라 카테고리 분류하도로 튜닝
 
 `from transformers import BertTokenizer`
+
 `from transformers import BertForSequenceClassification, AdamW, BertConfig`
 
 >하이퍼 파라미터 튜닝
