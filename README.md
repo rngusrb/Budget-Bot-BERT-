@@ -80,7 +80,7 @@ GUI 창이 실행되며, 문자 입력 → 분류 → 절약 추천까지 전체
 - 소비 내역 분류 결과 시각화
 - 설정된 한도 초과 시 경고창 팝업
 - 절약 항목 및 금액 제안
-
+![image](https://github.com/user-attachments/assets/0d8a9fbd-6b09-4498-8dde-560b99b0eed2)
 ---
 
 ## 성능 및 개선 사항
